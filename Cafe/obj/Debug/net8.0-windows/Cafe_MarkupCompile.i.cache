@@ -1,0 +1,20 @@
+﻿Cafe
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Learning\Fpt\Kì 5\PRN212\Projects\Cafe\obj\Debug\net8.0-windows\
+Cafe
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\Learning\Fpt\Kì 5\PRN212\Projects\Cafe\App.xaml
+13-36731558
+
+28656206038
+2442039762209
+MainWindow.xaml;Start\LoginPage.xaml;Start\SignupPage.xaml;Start\StartWindow.xaml;UAdmin\AdminWindow.xaml;UAdmin\CoffeeManagement.xaml;UAdmin\CoffeeOrderManagement.xaml;UAdmin\UserManagement.xaml;UCustomer\BookTablePage.xaml;UCustomer\CustomerWindow.xaml;UStaff\SellingPage.xaml;UStaff\StaffWindow.xaml;UStaff\TableManagementPage.xaml;
+
+True
+

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Cafe.UAdmin.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cafe.UAdmin"
+        mc:Ignorable="d"
+        Title="Admin" Width="1500" Height="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Horizontal" Background="#eeeeee">
+        <StackPanel Orientation="Horizontal" Background="#d47000">
+            <StackPanel Orientation="Vertical" Width="400" Background="#d47000">
+                <TextBox Name="lblTitle" Text="Quản lí Cafe Hola" TextWrapping="WrapWithOverflow" FontWeight="Bold" FontSize="60" Foreground="White" Width="300" Background="Transparent" BorderThickness="0"/>
+                <Button Name="btnCoffeeManagement" Content="Quản lí cà phê" FontSize="40" Height="70" FontWeight="SemiBold" Background="White" Foreground="#ff8700" Margin="0 50 0 0" Click="btnCoffeeManagement_Click"/>
+                <Button Name="btnStaffManagement" Content="Quản lí nhân viên" FontSize="40" Height="70" FontWeight="SemiBold" Background="White" Foreground="#ff8700" Margin="0 50 0 0" Click="btnStaffManagement_Click"/>
+                <Button Name="btnOrderManagement" Content="Quản lí hóa đơn" FontSize="40" Height="70" FontWeight="SemiBold" Background="White" Foreground="#ff8700" Margin="0 50 0 0" Click="btnOrderManagement_Click"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left"  Margin="15 160 0 0">
+                    <Label Name="lblAdminName" Content="vosongx10x" FontWeight="SemiBold" Foreground="White" FontSize="40" Margin="0 0 25 0"/>
+                    <Button Name="btnLogout" Content="Logout" FontSize="30" Height="60" Width="120" Background="White" Foreground="#ff8700" FontWeight="ExtraBlack" Click="btnLogout_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <Frame x:Name="frAdmin" NavigationUIVisibility="Hidden"/>
+    </StackPanel>
+</Window>
